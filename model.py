@@ -20,7 +20,7 @@ class SentimentRecommenderModel:
     ROOT_PATH = "pickle/"
     MODEL_NAME = "sentiment-classification-xg-boost-model.pkl"
     VECTORIZER = "pickle_tfidf-vectorizer.pkl"
-    RECOMMENDER = "pickle_user_final_rating.pkl"
+    RECOMMENDER = "user_final_rating.pkl"
     CLEANED_DATA = "pickle_cleaned-data.pkl"
 
     def __init__(self):
